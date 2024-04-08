@@ -1,0 +1,27 @@
+/* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
+/** {
+  scrollbar-width: thin;
+  scrollbar-color: #2B638B #FA832B;
+}*/
+
+*::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background-color: #FA832B;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #2B638B;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover, *::-webkit-scrollbar-thumb:active {
+    background-color: #E92352;
+  }
+
+  body,*{
+    scroll-behavior: smooth;
+  }
